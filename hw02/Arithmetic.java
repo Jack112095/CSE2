@@ -36,7 +36,7 @@
     double taxSockCost$ = (totalSockCost$ + (totalSockCost$ * taxPercent));
     double taxGlassCost$ = (totalGlassCost$ + (totalSockCost$ * taxPercent));
     double taxenvelopesCost$ = (totalEnvelopeCost$ + (totalEnvelopeCost$ * taxPercent));
-    System.out.println("Socks");
+    System.out.println("Socks" );
     System.out.println("-Number of socks;" + nSocks );
     System.out.println("-Cost of socks; $" + sockCost$);
     System.out.println("Glasses");
