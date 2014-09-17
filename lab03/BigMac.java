@@ -16,7 +16,7 @@ public class BigMac {
         Scanner myScanner;
         myScanner = new Scanner ( System.in );
         System.out.print("Enter the number of Big Macs (5):");
-        int nBigMacs = myScanner.nextInt( );
+        int nBigMacs = myScanner.nextIdnt( );
         System.out.print("Enter the cost per Big Mac as a double (in the form 2.50):");
     double bigMac$ = myScanner.nextDouble();
 	System.out.print(
