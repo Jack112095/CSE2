@@ -23,12 +23,13 @@ System.out.println("Enter an integer between 1 and 15 -");
     
     if(check == nStars){
         nStars=0;
-        while (nStars < 10){
+        while (nStars < check){
             System.out.println(a);
         nStars++;
         a = a+ "*";
     }
 
     }
+    
 }
 }
